@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Get a Benedict Cumberbatch name",
   "license": "MIT",
-  "repository": "Trott/cumberbatch",
+  "repository": "Trott/cumberbatch-name",
   "bin": {
     "cumberbatch-name": "cli.js"
   },
