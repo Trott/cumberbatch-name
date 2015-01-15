@@ -7,5 +7,5 @@ test('returns a random Cumberbatch name', function (t) {
 });
 
 test('returns a given name and a surname', function (t) {
-	t.assert(cumberbatch().match(/^\w* \w*$/));
+	t.assert(cumberbatch().match(/^\w+ \w+$/));
 });
