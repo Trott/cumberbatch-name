@@ -1,0 +1,44 @@
+{
+  "name": "cumberbatch",
+  "version": "1.0.0",
+  "description": "Get a Benedict Cumberbatch name",
+  "license": "MIT",
+  "repository": "Trott/cumberbatch",
+  "bin": {
+    "cumberbatch": "cli.js"
+  },
+  "author": {
+    "name": "Rich Trott",
+    "email": "rtrott@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "words.json"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "benedict-cumberbatch",
+    "word",
+    "words",
+    "list",
+    "array",
+    "random",
+    "rand"
+  ],
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "meow": "^2.1.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
