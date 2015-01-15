@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": "Trott/cumberbatch",
   "bin": {
-    "cumberbatch": "cli.js"
+    "cumberbatch-name": "cli.js"
   },
   "author": {
     "name": "Rich Trott",
