@@ -6,7 +6,7 @@ var cumberbatch = require('./');
 meow({
 	help: [
 		'Examples',
-		'  $ cumberbatch',
+		'  $ cumberbatch-name',
 		'  Bendyduck Cucumberpants'
 	].join('\n')
 });

@@ -1,4 +1,4 @@
-# cumberbatch [![Build Status](https://travis-ci.org/Trott/cumberbatch.svg?branch=master)](https://travis-ci.org/Trott/cumberbatch)
+# cumberbatch-name [![Build Status](https://travis-ci.org/Trott/cumberbatch.svg?branch=master)](https://travis-ci.org/Trott/cumberbatch)
 
 > Get a Benedict Cumberbatch name.
 
@@ -8,16 +8,16 @@ Shamelessly mashed up from [superb](https://github.com/sindresorhus/superb) and 
 ## Install
 
 ```
-$ npm install --save cumberbatch
+$ npm install --save cumberbatch-name
 ```
 
 
 ## Usage
 
 ```js
-var cumberbatch = require('cumberbatch');
+var cumberbatch = require('cumberbatch-name');
 
-superb();
+cumberbatch();
 //=> 'Jellythick Bumperast'
 ```
 
@@ -34,14 +34,14 @@ Random Benedict Cumberbatch name.
 ## CLI
 
 ```
-$ npm install --global cumberbatch
+$ npm install --global cumberbatch-name
 ```
 
 ```
-$ cumberbatch --help
+$ cumberbatch-name --help
 
   Examples
-    $ cumberbatch
+    $ cumberbatch-name
     Bendyduck Cucumberpants
 ```
 
