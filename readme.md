@@ -1,4 +1,4 @@
-# cumberbatch-name [![Build Status](https://travis-ci.org/Trott/cumberbatch.svg?branch=master)](https://travis-ci.org/Trott/cumberbatch)
+# cumberbatch-name [![Build Status](https://travis-ci.org/Trott/cumberbatch-name.svg?branch=master)](https://travis-ci.org/Trott/cumberbatch-name)
 
 > Get a Benedict Cumberbatch name.
 
