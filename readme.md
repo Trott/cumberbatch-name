@@ -2,7 +2,7 @@
 
 > Get a Benedict Cumberbatch name.
 
-Shamelessly mashed up from [superb](https://github.com/sindresorhus/superb) and [What's Your Benedict Cumberbatch Name?](http://www.buzzfeed.com/awesomer/whats-your-benedict-cumberbatch-name)
+Generates variants on *Benedict Cumberbatch* such as *Pepperduck Blubberpatch* or *Butterjig Butterwrap*.
 
 
 ## Install
@@ -48,3 +48,14 @@ $ cumberbatch-name --help
 ## License
 
 MIT © [Rich Trott](https://trott.github.io)
+
+## Acknowledgments
+
+* [Benedict Cumberbatch Name Generator](http://benedictcumberbatchgenerator.tumblr.com/)
+* The code for [superb](https://github.com/sindresorhus/superb) served as a starting point
+* I snagged word fragment ideas from [What's Your Benedict Cumberbatch Name?](http://www.buzzfeed.com/awesomer/whats-your-benedict-cumberbatch-name) as a starting point
+
+### Word Fragments Contributed By
+
+* [Trott](https://github.com/Trott)
+* [gökhan](https://github.com/goldenilkay92)
