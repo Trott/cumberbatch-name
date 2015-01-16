@@ -98,7 +98,6 @@
 	"drunk",
 	"sink",
 	"kick",
-	"damage",
 	"dumb",
 	"dust",
 	"dutch",
@@ -241,7 +240,6 @@
 	"watch",
 	"ranch",
 	"branch",
-	"punch",
-	"father"
+	"punch"
   ]
 }
