@@ -57,5 +57,5 @@ MIT © [Rich Trott](https://trott.github.io)
 
 ### Word Fragments Contributed By
 
-* [Trott](https://github.com/Trott)
+* [Rich Trott](https://github.com/Trott)
 * [gökhan](https://github.com/goldenilkay92)
