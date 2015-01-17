@@ -2,7 +2,7 @@
 
 > Get a Benedict Cumberbatch name.
 
-Generates variants on *Benedict Cumberbatch* such as *Pepperduck Blubberpatch* or *Butterjig Butterwrap*.
+Generates variants on *Benedict Cumberbatch* such as *Pepperduck Blubberpatch* or *Babychunk Dumpercatch*.
 
 
 ## Install
