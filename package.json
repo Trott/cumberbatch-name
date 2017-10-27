@@ -39,7 +39,6 @@
     "meow": "^2.1.0"
   },
   "devDependencies": {
-    "ava": "0.0.4",
-    "precommit-hook": "^1.0.7"
+    "ava": "0.0.4"
   }
 }
