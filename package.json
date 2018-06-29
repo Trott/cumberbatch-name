@@ -35,7 +35,7 @@
     "rand"
   ],
   "dependencies": {
-    "lodash": "^2.4.1",
+    "lodash.sample": "^4.2.1",
     "meow": "^2.1.0"
   },
   "devDependencies": {
