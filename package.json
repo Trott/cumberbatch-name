@@ -36,7 +36,7 @@
   ],
   "dependencies": {
     "lodash.sample": "^4.2.1",
-    "meow": "^6.0.1"
+    "meow": "^7.1.1"
   },
   "devDependencies": {
     "ava": "^3.5.0",
