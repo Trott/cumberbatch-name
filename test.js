@@ -1,21 +1,20 @@
 'use strict'
-var test = require('ava')
-var cumberbatch = require('./')
+const cumberbatch = require('./')
+const assert = require('assert')
 
-test('returns a random Cumberbatch name', function (t) {
-  t.assert(cumberbatch().length > 0)
-})
+// returns a random Cumberbatch name
+assert.ok(cumberbatch().length > 0)
 
-test('returns a given name and a surname', function (t) {
-  t.assert(cumberbatch().match(/^\w+ (?:Von )?\w+$/))
-})
+// returns a given name and a surname
+assert.match(cumberbatch(), /^\w+ (?:Von )?\w+$/)
 
-test('uses "Von" and "Mc" infrequently', function (t) {
-  var original = Math.random
+// uses "Von" and "Mc" infrequently'
+{
+  const original = Math.random
   Math.random = () => 0
-  var name = cumberbatch()
-  t.assert(name.match(/^\w+ Von Mc\w+$/), name)
+  const name = cumberbatch()
+  assert.match(name, /^\w+ Von Mc\w+$/)
   Math.random = () => 0.1
-  t.assert(cumberbatch().match(/^\w+ \w+$/))
+  assert.match(cumberbatch(), /^\w+ \w+$/)
   Math.random = original
-})
+}
