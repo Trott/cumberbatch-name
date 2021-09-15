@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/Trott/cumberbatch-name/compare/v2.0.2...v3.0.0) (2021-09-15)
+
+
+### chore
+
+* drop support for Node.js 10.x and 15.x ([b165b4d](https://github.com/Trott/cumberbatch-name/commit/b165b4d36f84fbcce093f6c5c20b314586533152))
+
+
+### BREAKING CHANGES
+
+* drop support for Node.js 10.x and 15.x
+
 ## [2.0.2](https://github.com/Trott/cumberbatch-name/compare/v2.0.1...v2.0.2) (2020-10-15)
 
 
