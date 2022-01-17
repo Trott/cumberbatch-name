@@ -35,14 +35,14 @@
     "rand"
   ],
   "dependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "lodash.sample": "^4.2.1",
-    "meow": "^7.1.1"
+    "meow": "^7.1.1",
+    "semantic-release": "^19.0.0-beta.1"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.0",
     "c8": "^7.3.4",
-    "semantic-release": "^17.4.4",
     "standard": "^14.3.3"
   },
   "release": {
