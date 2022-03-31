@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict'
-var meow = require('meow')
-var cumberbatch = require('./')
+const meow = require('meow')
+const cumberbatch = require('./')
 
 meow({
   help: [
