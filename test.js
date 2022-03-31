@@ -1,6 +1,7 @@
 'use strict'
 const cumberbatch = require('./')
 const assert = require('assert')
+const cp = require('child_process')
 
 // returns a random Cumberbatch name
 assert.ok(cumberbatch().length > 0)
@@ -18,3 +19,6 @@ assert.match(cumberbatch(), /^\w+ (?:Von )?\w+$/)
   assert.match(cumberbatch(), /^\w+ \w+$/)
   Math.random = original
 }
+
+// Make sure CLI works.
+cp.execFileSync('./cli.mjs')
