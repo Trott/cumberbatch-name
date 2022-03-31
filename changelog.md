@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/Trott/cumberbatch-name/compare/v3.0.0...v3.1.0) (2022-03-31)
+
+
+### Features
+
+* add Cactus ([536e7c3](https://github.com/Trott/cumberbatch-name/commit/536e7c348aae767d96689f76969cc194cc72da3a))
+
 # [3.0.0](https://github.com/Trott/cumberbatch-name/compare/v2.0.2...v3.0.0) (2021-09-15)
 
 
