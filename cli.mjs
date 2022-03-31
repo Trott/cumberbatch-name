@@ -1,14 +1,14 @@
 #!/usr/bin/env node
-'use strict'
-const meow = require('meow')
-const cumberbatch = require('./')
+import meow from 'meow'
+import cumberbatch from './index.js'
 
 meow({
   help: [
     'Examples',
     '  $ cumberbatch-name',
     '  Bendyduck Cucumberpants'
-  ].join('\n')
+  ].join('\n'),
+  importMeta: import.meta
 })
 
 console.log(cumberbatch())
