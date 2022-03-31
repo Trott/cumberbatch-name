@@ -41,9 +41,9 @@
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "c8": "^7.3.4",
+    "c8": "^7.11.0",
     "semantic-release": "^19.0.2",
-    "standard": "^14.3.3"
+    "standard": "^16.0.4"
   },
   "release": {
     "branches": [
