@@ -1,3 +1,16 @@
+# [4.0.0](https://github.com/Trott/cumberbatch-name/compare/v3.1.0...v4.0.0) (2022-04-18)
+
+
+### Features
+
+* add TypeScript types ([f53f592](https://github.com/Trott/cumberbatch-name/commit/f53f5928b721a6716f5077e8312709150283b746))
+
+
+### BREAKING CHANGES
+
+* module is now ESM-only
+* remove -h/--help options from CLI
+
 # [3.1.0](https://github.com/Trott/cumberbatch-name/compare/v3.0.0...v3.1.0) (2022-03-31)
 
 
