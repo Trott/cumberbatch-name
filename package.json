@@ -4,8 +4,10 @@
   "description": "Get a Benedict Cumberbatch name",
   "license": "MIT",
   "repository": "Trott/cumberbatch-name",
+  "main": "index.js",
+  "types": "index.d.ts",
   "bin": {
-    "cumberbatch-name": "cli.mjs"
+    "cumberbatch-name": "cli.js"
   },
   "author": {
     "name": "Rich Trott",
@@ -15,12 +17,15 @@
     "node": ">=12"
   },
   "scripts": {
-    "test": "standard && c8 --check-coverage --lines 100 --functions 100 --branches 100 node test.js"
+    "test": "tsc && ts-standard -p tsconfig.json && c8 --100 node test.js"
   },
+  "type": "module",
   "files": [
+    "index.d.ts",
     "index.js",
     "cli.js",
-    "words.json"
+    "words.d.ts",
+    "words.js"
   ],
   "keywords": [
     "cli-app",
@@ -35,15 +40,23 @@
     "rand"
   ],
   "dependencies": {
-    "lodash.sample": "^4.2.1",
-    "meow": "^10.1.2"
+    "lodash.sample": "^4.2.1"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
+    "@types/lodash.sample": "^4.2.6",
+    "@types/node": "^17.0.24",
     "c8": "^7.11.0",
     "semantic-release": "^19.0.2",
-    "standard": "^16.0.4"
+    "ts-standard": "^11.0.0",
+    "typescript": "^4.7.0-dev.20220418"
+  },
+  "ts-standard": {
+    "ignore": [
+      "**/*.js",
+      "**/*.d.ts"
+    ]
   },
   "release": {
     "branches": [
