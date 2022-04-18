@@ -15,10 +15,10 @@ $ npm install --save cumberbatch-name
 ## Usage
 
 ```js
-var cumberbatch = require('cumberbatch-name');
+import cumberbatch from 'cumberbatch-name'
 
-cumberbatch();
-//=> 'Jellythick Bumperast'
+console.log(cumberbatch())
+//=> 'Jellydrink Bumperface'
 ```
 
 
@@ -33,16 +33,14 @@ Random Benedict Cumberbatch name.
 
 ## CLI
 
-```
+```console
 $ npm install --global cumberbatch-name
 ```
 
-```
-$ cumberbatch-name --help
-
-  Examples
-    $ cumberbatch-name
-    Bendyduck Cucumberpants
+```console
+$ cumberbatch-name
+Bendyduck Cucumberpants
+$
 ```
 
 ## License
