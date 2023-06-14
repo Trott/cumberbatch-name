@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/Trott/cumberbatch-name/compare/v4.0.0...v5.0.0) (2023-06-14)
+
+
+### chore
+
+* update dependencies ([2781e85](https://github.com/Trott/cumberbatch-name/commit/2781e8587cd1a03449f5ccf1453f8f222c7a7a64))
+
+
+### BREAKING CHANGES
+
+* drop support for Node.js < 16
+
 # [4.0.0](https://github.com/Trott/cumberbatch-name/compare/v3.1.0...v4.0.0) (2022-04-18)
 
 
