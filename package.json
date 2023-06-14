@@ -14,7 +14,7 @@
     "email": "rtrott@gmail.com"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=16"
   },
   "scripts": {
     "test": "tsc && ts-standard -p tsconfig.json && c8 --100 node test.js"
