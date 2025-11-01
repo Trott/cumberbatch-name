@@ -1,4 +1,9 @@
 name: Release
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
 on:
   push:
     branches:
