@@ -43,9 +43,12 @@
     "lodash.sample": "^4.2.1"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
     "@types/lodash.sample": "^4.2.7",
     "@types/node": "^24.0.1",
     "c8": "^10.1.2",
+    "semantic-release": "^25.0.1",
     "ts-standard": "^12.0.2",
     "typescript": "^5.0.2"
   },
